@@ -14,7 +14,7 @@ This Python script automates the process of updating Minecraft mods by downloadi
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/minecraft-mod-updater.git
+    git clone https://github.com/EssoweBekley/minecraft-mod-updater.git
     cd minecraft-mod-updater
     ```
 
