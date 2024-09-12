@@ -9,6 +9,7 @@ This Python script automates the process of updating Minecraft mods by downloadi
 - **Version Filtering**: Match mods to a specific Minecraft version and loader.
 - **Automated Search**: Automatically search for and download the latest compatible mod versions from Modrinth.
 - **Summary Report**: Displays a report of successfully updated mods and any failures.
+- **Output Mods Folder**: Produces a new `mods` folder that you can drag into your Minecraft directory to replace the old mods.
 
 ## How It Works
 
@@ -25,9 +26,12 @@ This Python script automates the process of updating Minecraft mods by downloadi
    - The script filters mod versions based on the specified Minecraft version and mod loader (e.g., Forge, Fabric).
 
 5. **Download Latest Version**:
-   - The latest compatible version of the mod is downloaded and saved to a `mods` folder.
+   - The latest compatible version of the mod is downloaded and saved to a new `mods` folder.
 
-6. **Review Results**:
+6. **Drag and Replace**:
+   - After the script finishes, you can drag the newly created `mods` folder into your Minecraft directory to replace the old mods.
+
+7. **Review Results**:
    - The script provides a summary of which mods were successfully updated and which failed.
 
 ## Installation
@@ -54,11 +58,14 @@ This Python script automates the process of updating Minecraft mods by downloadi
 2. **Follow the Prompts**:
     - Select the folder containing your Minecraft mod `.jar` files.
     - Enter the Minecraft version you want to update to (e.g., `1.19.2`).
-    - Specify the mod loader/framework if known (e.g., `forge`, `fabric`).
+    - Specify the mod loader/framework if known (e.g., `forge`, `fabric`), or press Enter to skip.
 
 3. **Review the Results**:
     - The script will output the status of each mod update.
     - After completion, it will prompt you to press Enter to exit.
+
+4. **Replace Mods**:
+    - Drag the generated `mods` folder into your Minecraft directory to update your mods.
 
 ## Example Output
 
