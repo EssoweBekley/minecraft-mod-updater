@@ -5,10 +5,30 @@ This Python script automates the process of updating Minecraft mods by downloadi
 ## Features
 
 - **Select a Folder**: Choose the folder containing your Minecraft mod `.jar` files.
-- **Read Mod Data**: The script extracts the mod name by reading the `fabric.mod.json` file from each mod.
-- **Search and Download**: Automatically search for and download the latest compatible mod versions from Modrinth.
 - **Framework Support**: Filter mods based on the specified loader/framework (e.g., Forge, Fabric).
 - **Version Filtering**: Match mods to a specific Minecraft version and loader.
+- **Automated Search**: Automatically search for and download the latest compatible mod versions from Modrinth.
+- **Summary Report**: Displays a report of successfully updated mods and any failures.
+
+## How It Works
+
+1. **Read Mod Folder**:
+   - You select your Minecraft mods folder, and the script scans it for `.jar` mod files.
+
+2. **Extract Mod Name**:
+   - For each mod, the script reads the `fabric.mod.json` file (if available) to extract the mod name.
+
+3. **Search Modrinth**:
+   - It uses the Modrinth API to search for mods by name and retrieves all available versions.
+
+4. **Filter by Minecraft Version and Loader**:
+   - The script filters mod versions based on the specified Minecraft version and mod loader (e.g., Forge, Fabric).
+
+5. **Download Latest Version**:
+   - The latest compatible version of the mod is downloaded and saved to a `mods` folder.
+
+6. **Review Results**:
+   - The script provides a summary of which mods were successfully updated and which failed.
 
 ## Installation
 
