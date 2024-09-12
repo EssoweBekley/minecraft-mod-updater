@@ -70,4 +70,6 @@ This Python script automates the process of updating Minecraft mods by downloadi
 ## Example Output
 
 ![Terminal](Screenshots/Terminal.png)
+![BeforeAndAfter](Screenshots/difference.png)
+
 
