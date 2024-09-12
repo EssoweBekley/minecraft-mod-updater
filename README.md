@@ -54,7 +54,7 @@ This Python script automates the process of updating Minecraft mods by downloadi
 2. **Follow the Prompts**:
     - Select the folder containing your Minecraft mod `.jar` files.
     - Enter the Minecraft version you want to update to (e.g., `1.19.2`).
-    - Specify the mod loader/framework if known (e.g., `forge`, `fabric`), or press Enter to skip.
+    - Specify the mod loader/framework if known (e.g., `forge`, `fabric`).
 
 3. **Review the Results**:
     - The script will output the status of each mod update.
